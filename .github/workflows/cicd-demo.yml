@@ -32,6 +32,7 @@ jobs:
         ls
         pip install .
         agenteval --help
+        pwd
         ls
         ls build/lib/agenteval/templates/evaluators/claude_3/system
 
