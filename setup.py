@@ -14,7 +14,9 @@ REQUIRES_PYTHON = ">=3.9"
 PACKAGE_DATA = {
     "": [
         "templates/**/*",
-        "templates/evaluators/**/*"
+        "templates/evaluators/**/*",
+        "templates/evaluators/claude_3/**/*",
+      
     ],
 }
 
