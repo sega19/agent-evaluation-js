@@ -34,7 +34,8 @@ jobs:
         agenteval --help
         pwd
         ls
-        ls build/lib/agenteval/templates/evaluators/claude_3/system
+        #ls build/lib/agenteval/templates/evaluators/claude_3/system
+        ls build/lib/agenteval/
 
     - name: Test Bedrock Agent
       id: test-bedrock-agent
