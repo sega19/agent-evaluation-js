@@ -32,6 +32,7 @@ jobs:
         ls
         pip install .
         agenteval --help
+        ls
 
     - name: Test Bedrock Agent
       id: test-bedrock-agent
