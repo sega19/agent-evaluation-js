@@ -29,13 +29,13 @@ jobs:
 
     - name: Install agent-evaluation
       run: |
-        ls
+        
         pip install .
         agenteval --help
         pwd
-        ls
+        
         #ls build/lib/agenteval/templates/evaluators/claude_3/system
-        ls build/lib/agenteval/templates/
+        ls build/lib/agenteval/templates/evaluators/
 
     - name: Test Bedrock Agent
       id: test-bedrock-agent
