@@ -4,6 +4,10 @@ target:
   bedrock_agent_alias_id: BEDROCK_AGENT_ALIAS_ID
   bedrock_agent_id: BEDROCK_AGENT_ID
   type: bedrock-agent
+  bedrock_session_attributes:
+    first_name: user-name
+  bedrock_prompt_session_attributes:
+    timezone: user-timezone
 tests:
   CustomerInteractionsTest:
     expected_results:
