@@ -29,7 +29,8 @@ jobs:
 
     - name: Install agent-evaluation
       run: |
-        pip install agent-evaluation
+        ls
+        pip install .
         agenteval --help
 
     - name: Test Bedrock Agent
